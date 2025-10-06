@@ -1,4 +1,0 @@
-repository "MonopolyTest/MonopolyTest@18968268614442@cloud"
-  path "/"
-    br "/main"
-    co "/main"
