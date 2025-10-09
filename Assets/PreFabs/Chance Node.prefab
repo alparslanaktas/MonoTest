@@ -312,9 +312,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -1129086096, guid: 2fd637eacac398c4c98e2d3021da1e51, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -368,6 +368,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c04c1dbfd1abc6f458fcc2edb46d2810, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MonopolyNode
+  monopolyNodeType: 4
+  name: Luck
+  nameText: {fileID: 4171759460564419002}
 --- !u!1 &6230937386231020294
 GameObject:
   m_ObjectHideFlags: 0

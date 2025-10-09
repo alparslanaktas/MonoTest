@@ -46,6 +46,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c04c1dbfd1abc6f458fcc2edb46d2810, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MonopolyNode
+  monopolyNodeType: 1
+  name: Utility
+  nameText: {fileID: 2632984929802320303}
 --- !u!1 &233160025448339106
 GameObject:
   m_ObjectHideFlags: 0
@@ -247,9 +250,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -240599484, guid: 2fd637eacac398c4c98e2d3021da1e51, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
