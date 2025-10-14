@@ -598,6 +598,18 @@ MonoBehaviour:
   monopolyNodeType: 8
   name: 
   nameText: {fileID: 0}
+  price: 0
+  priceText: {fileID: 0}
+  calculateRentAuto: 0
+  currentRent: 0
+  baseRent: 0
+  rentWithHouses: 
+  mortgageImage: {fileID: 0}
+  propertyImage: {fileID: 0}
+  isMortgaged: 0
+  mortgageValue: 0
+  ownerBar: {fileID: 0}
+  ownerText: {fileID: 0}
 --- !u!1001 &277492952
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1236,6 +1248,18 @@ MonoBehaviour:
   monopolyNodeType: 7
   name: 
   nameText: {fileID: 0}
+  price: 0
+  priceText: {fileID: 0}
+  calculateRentAuto: 0
+  currentRent: 0
+  baseRent: 0
+  rentWithHouses: 
+  mortgageImage: {fileID: 0}
+  propertyImage: {fileID: 0}
+  isMortgaged: 0
+  mortgageValue: 0
+  ownerBar: {fileID: 0}
+  ownerText: {fileID: 0}
 --- !u!1 &417189433
 GameObject:
   m_ObjectHideFlags: 0
@@ -3049,6 +3073,50 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3173158538992604465, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: price
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173158538992604465, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: baseRent
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173158538992604465, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: currentRent
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173158538992604465, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: calculateRentAuto
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173158538992604465, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: rentWithHouses.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173158538992604465, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: 'rentWithHouses.Array.data[0]'
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173158538992604465, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: 'rentWithHouses.Array.data[1]'
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173158538992604465, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: 'rentWithHouses.Array.data[2]'
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173158538992604465, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: 'rentWithHouses.Array.data[3]'
+      value: 320
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173158538992604465, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: 'rentWithHouses.Array.data[4]'
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 8355556331861558784, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: m_text
+      value: $ 120
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3927,6 +3995,18 @@ MonoBehaviour:
   monopolyNodeType: 0
   name: 
   nameText: {fileID: 0}
+  price: 0
+  priceText: {fileID: 0}
+  calculateRentAuto: 0
+  currentRent: 0
+  baseRent: 0
+  rentWithHouses: 
+  mortgageImage: {fileID: 0}
+  propertyImage: {fileID: 0}
+  isMortgaged: 0
+  mortgageValue: 0
+  ownerBar: {fileID: 0}
+  ownerText: {fileID: 0}
 --- !u!1001 &1300706949
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4122,6 +4202,18 @@ MonoBehaviour:
   monopolyNodeType: 9
   name: 
   nameText: {fileID: 0}
+  price: 0
+  priceText: {fileID: 0}
+  calculateRentAuto: 0
+  currentRent: 0
+  baseRent: 0
+  rentWithHouses: 
+  mortgageImage: {fileID: 0}
+  propertyImage: {fileID: 0}
+  isMortgaged: 0
+  mortgageValue: 0
+  ownerBar: {fileID: 0}
+  ownerText: {fileID: 0}
 --- !u!1001 &1448462316
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4542,6 +4634,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3173158538992604465, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: price
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173158538992604465, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: baseRent
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173158538992604465, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: calculateRentAuto
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173158538992604465, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: rentWithHouses.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173158538992604465, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: 'rentWithHouses.Array.data[0]'
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173158538992604465, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: 'rentWithHouses.Array.data[1]'
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173158538992604465, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: 'rentWithHouses.Array.data[2]'
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173158538992604465, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: 'rentWithHouses.Array.data[3]'
+      value: 160
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173158538992604465, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: 'rentWithHouses.Array.data[4]'
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 8355556331861558784, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: m_text
+      value: $ 60
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4614,6 +4746,46 @@ PrefabInstance:
     - target: {fileID: 1120560010292965374, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173158538992604465, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: price
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173158538992604465, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: baseRent
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173158538992604465, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: calculateRentAuto
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173158538992604465, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: rentWithHouses.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173158538992604465, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: 'rentWithHouses.Array.data[0]'
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173158538992604465, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: 'rentWithHouses.Array.data[1]'
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173158538992604465, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: 'rentWithHouses.Array.data[2]'
+      value: 135
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173158538992604465, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: 'rentWithHouses.Array.data[3]'
+      value: 240
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173158538992604465, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: 'rentWithHouses.Array.data[4]'
+      value: 375
+      objectReference: {fileID: 0}
+    - target: {fileID: 8355556331861558784, guid: aa9a203444328644f86b2726a0b0bfa9, type: 3}
+      propertyPath: m_text
+      value: $ 90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
